@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "serve": "http-server out"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "http-server": "^0.12.3"
   }
 }

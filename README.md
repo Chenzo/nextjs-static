@@ -13,3 +13,12 @@ npm run static
 ```
 
 Should build it to a `out` folder
+
+
+```bash
+npm run serve
+```
+
+Creates a HTTP simple server to test the static output
+
+
