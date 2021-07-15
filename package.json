@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "statlc": "next build && next export"
+    "static": "next build && next export"
   },
   "dependencies": {
     "next": "11.0.1",
