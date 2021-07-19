@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,8 +20,7 @@ export default function Home() {
 
         <div>
             <p>Image Below</p>
-            {/* <Image src="/img/vercel.svg" alt="Toll Logo" width={200} height={50} /> */}
-            <img src="https://www.tollbrothers.com/tb/images/home_slideshow/metro-crossing.jpg" alt="Toll Logo" />
+            <Image src="/img/vercel.svg" alt="Toll Logo" width={200} height={50} /> 
         </div>
 
       </main>
